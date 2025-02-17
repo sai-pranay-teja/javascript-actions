@@ -1,0 +1,16 @@
+name: 'Greetings!!!!'
+
+
+
+
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  greeting:
+    description: 'The way we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
