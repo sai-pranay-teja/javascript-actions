@@ -1,7 +1,8 @@
-import * as core from '@actions/core';
-import * as github from '@actions/github';
-import path from 'path';
-
+// import * as core from '@actions/core';
+// import * as github from '@actions/github';
+// import path from 'path';
+const core = require('@actions/core');
+const github = require('@actions/github');
 
 
 try {
