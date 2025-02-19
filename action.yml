@@ -13,4 +13,4 @@ outputs:
     description: 'The way we greeted you'
 runs:
   using: 'node20'
-  main: 'index.js'
+  main: 'dist/index.js'
